@@ -1,0 +1,201 @@
+html{
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    color: #bfbfbf;
+}
+
+p{
+    margin-bottom: .2rem;
+}
+
+.main {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    border: 3px solid #BFBFBF;
+    border-radius: 20px;
+    background-color: #171717;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+
+/* HEADER STYLING */
+
+.header {
+    border-bottom: 2px solid black;
+}
+
+.logo {
+    display: flex;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+.input-group-append {
+    display: flex;
+    align-items: center;
+    margin-left: -40px; 
+
+}
+
+input[type="text"], textarea {
+    color: #BFBFBF;
+    background-color : #1d1d1d;
+}
+
+input[type="text"]:focus {
+    color: #171717;
+    background-color : #BFBFBF;
+}
+
+.bi-search {
+    border: 0px solid black;
+    color:#BFBFBF;
+    z-index: 1000;
+}
+
+.search-bar {
+    margin-right: 10%;
+}
+
+.notification {
+ margin-left: 10%;
+}
+
+.user{
+    margin-left: 2%;
+}
+
+.profile-pic {
+    height: 50px;
+    border: 3px solid cornflowerblue;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+
+/* NAVBAR STYLING */
+
+.navigation{
+    border-right: 2px solid black;
+}
+
+.nav-item {
+    display: flex;
+    margin-top: 15px;
+}
+.nav-name{
+    font-size: 1.5rem;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.nav-pic {
+    margin-top: 30px;
+}
+
+.nav-tagline {
+    margin-left: 30px;
+    font-size: 1.5rem;
+}
+
+.add-task {
+    border: 1px solid #FABD14;
+    border-radius: 30px;
+    font-size: 2rem;
+    margin-bottom: 10%;
+    margin-left: 15px;
+    background-color: #ED6E3D;
+}
+
+.btn-primary:hover {
+    border: 1px solid #FABD14;
+    background-color: #e9443a;
+}
+
+
+/* DASHBOARD STYLING */
+
+h2 {
+margin-top: 10px;
+color: white;
+border-radius: 20px;
+padding-bottom: 4px;
+}
+
+.status {
+    margin-right: 35px;
+}
+
+.gray{
+    background-color: gray;
+    padding-left: 10px;
+
+}
+
+
+.yellow {
+    background-color: #FABD14;
+    padding-left: 8px;
+    font-size: 1.85rem;
+}
+
+.green {
+    background-color: #11DB25;
+    padding-left: 15px;
+    padding-right: 35px;
+    font-size: 1.85rem;
+}
+
+/* CARD STYLING */
+
+.card {
+    background-color:#1d1d1d;
+    color: #bfbfbf;
+    border: 1px solid #444444;
+    border-radius: 20px;
+}
+
+.drag-over {
+    border: 2px dashed #333;
+}
+
+.placeholder {
+    border: 2px dashed #333; /* Style the border for the placeholder */
+    background: none; /* Remove background to make it transparent */
+  }
+  
+
+
+.pill-g {
+    background-color: #444444;
+    border-radius:15px;
+    padding: 0px 10px;
+    color:white;
+    margin-left: 5px;
+}
+
+.pill-y {
+    background-color: #FABD14;
+    border-radius:15px;
+    padding: 0px 10px;
+    color:white;
+    margin-left: 5px;
+}
+
+
+.pill-gr {
+    background-color: #11DB25;
+    border-radius:15px;
+    padding: 0px 10px;
+    color:white;
+    margin-left: 5px;
+}
