@@ -46,20 +46,32 @@
                     </p>
                 </div>
                 <div class="col-1">
-                    <img src="./images/profile-pic.jpg" class="profile-pic my-2" alt="profile-picture">
+                    <img src="./images/profile-pic.jpg" class="profile-pic mb-3" alt="profile-picture">
                 </div>
             </div>
         </div>
 
         <div class="container">
+            <div class="content-title row">
+                <div class="col-9 d-flex">
+                    <i class="bi bi-list " style="font-size: 2rem;"></i>
+                    <i class="bi bi-grid-fill mx-3" style="font-size: 2rem;"></i>
+                    <p style="font-size: 2rem;"> Project > </p>
+                    <p style="font-size: 2rem; margin-left: 10px;">   Design Guideline - Branding </p>
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-primary" type="submit">Add New Task</button>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="col-3 navigation">
                     <div class="nav-item">
-                        <i class="bi bi-dice-4" style="font-size: 2rem;""></i>
+                        <i class="bi bi-dice-4" style="font-size: 2rem;"></i>
                         <p class=" nav-name">Dashboard</p>
                     </div>
                     <div class="nav-item">
-                        <i class="bi bi-chat-left-dots" style="font-size: 2rem;""></i>
+                        <i class="bi bi-chat-left-dots" style="font-size: 2rem;"></i>
                         <p class=" nav-name">Chat</p>
                     </div>
                     <div class="nav-item">
@@ -85,9 +97,10 @@
                     </div>
 
                     <div>
-                        <button class="btn btn-primary add-task" type="submit">Add New Task</button>
+                        <button class="btn add-task" type="submit">Add New Task</button>
                     </div>
                 </div>
+
 
                 <div class="col-3 to-do lane" ondrop="drop(event)" ondragover="allowDrop(event)" ondragleave="removeDragOver(event)">
                     <div class="row my-4">

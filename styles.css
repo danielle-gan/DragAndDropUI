@@ -107,10 +107,23 @@ input[type="text"]:focus {
     font-size: 1.5rem;
 }
 
+
+
+.btn-primary {
+    border: 1px solid #FABD14;
+    border-radius: 30px;
+    font-size: 1rem;
+    background-color: #ED6E3D;
+    margin-top: 5%;
+    margin-left: 80px;
+}
+
 .add-task {
+    color: white;
     border: 1px solid #FABD14;
     border-radius: 30px;
     font-size: 2rem;
+    margin-top: 5%;
     margin-bottom: 10%;
     margin-left: 15px;
     background-color: #ED6E3D;
@@ -121,8 +134,17 @@ input[type="text"]:focus {
     background-color: #e9443a;
 }
 
+.add-task:hover {
+    border: 1px solid #FABD14;
+    background-color: #e9443a;
+}
+
 
 /* DASHBOARD STYLING */
+
+.content-title {
+    margin-left: 24%;
+}
 
 h2 {
 margin-top: 10px;
