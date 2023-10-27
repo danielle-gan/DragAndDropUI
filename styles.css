@@ -18,6 +18,7 @@ p{
     border: 3px solid #BFBFBF;
     border-radius: 20px;
     background-color: #171717;
+    z-index:2;
 }
 
 .no-wrap {
@@ -42,8 +43,6 @@ h1 {
 .input-group-append {
     display: flex;
     align-items: center;
-    margin-left: -40px; 
-
 }
 
 input[type="text"], textarea {
@@ -59,6 +58,7 @@ input[type="text"]:focus {
 .bi-search {
     border: 0px solid black;
     color:#BFBFBF;
+    margin-left: -30px;
     z-index: 1000;
 }
 
@@ -79,6 +79,7 @@ input[type="text"]:focus {
     border: 3px solid cornflowerblue;
     border-radius: 25px;
     margin-left: 20px;
+
 }
 
 
@@ -91,7 +92,14 @@ input[type="text"]:focus {
 .nav-item {
     display: flex;
     margin-top: 15px;
+    transition: background-color 0.3s;
 }
+
+.nav-item:hover {
+    background-color:#ED6E3D;
+    color: white;
+}
+
 .nav-name{
     font-size: 1.5rem;
     margin-left: 25px;
@@ -116,6 +124,7 @@ input[type="text"]:focus {
     background-color: #ED6E3D;
     margin-top: 5%;
     margin-left: 80px;
+    transition: background-color 0.3s;
 }
 
 .add-task {
@@ -127,6 +136,7 @@ input[type="text"]:focus {
     margin-bottom: 10%;
     margin-left: 15px;
     background-color: #ED6E3D;
+    transition: background-color 0.3s;
 }
 
 .btn-primary:hover {
@@ -221,3 +231,30 @@ padding-bottom: 4px;
     color:white;
     margin-left: 5px;
 }
+
+
+/* Orange Hover Lines */
+
+/* .bg-line-1 {
+    position: absolute;
+    top: 60px;
+    background-color: #ED6E3D;
+    padding: 30px;
+    width: 100%;
+    display: inline-block;
+} */
+
+
+.main::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    border-top: 20px solid #e74c3c; /* Color of the line */
+    z-index: -1; /* Position this line below the main content */
+}
+  
+  
+  
+  
